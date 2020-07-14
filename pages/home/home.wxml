@@ -1,0 +1,11 @@
+<!--pages/home/home.js.wxml-->
+<view class="page">
+  <view class="page-title">请选择试题：</view>
+    <view class="flex-box">
+      <view class="flex-item"><view class="item bc_green" bindtap="toTestPage" data-testId="18">It知识</view></view>
+      <view class="flex-item"><view class="item bc_red" bindtap="toTestPage" data-testId="15">游戏知识</view></view>
+      <view class="flex-item"><view class="item bc_yellow" bindtap="toTestPage" data-testId="21">体育知识</view></view>
+      <view class="flex-item"><view class="item bc_blue" bindtap="toTestPage" data-testId="27">动物知识</view></view>
+      <view class="flex-item item-last"><view class="item bc_green" bindtap="toTestPage" data-testId="0">综合知识</view></view>
+    </view>
+</view>
